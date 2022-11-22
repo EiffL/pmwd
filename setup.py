@@ -22,7 +22,7 @@ setup(
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
     packages=find_packages(),
-    python_requires='>=3.8',  # importlib.metadata
+    python_requires='>=3.7',  # importlib.metadata
     install_requires=[
         'jax',
         'numpy>=1.20',  # numpy.typing
